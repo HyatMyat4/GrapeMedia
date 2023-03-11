@@ -9,6 +9,7 @@ import { useParams } from 'react-router-dom';
 import { useDispatch } from 'react-redux'
 import FakePost from './FakePost'
 import { useGetUserPostQuery } from '../api/PostApiSLice'
+import Header from '../Header/HeaderMain'
 import  { 
   FriendsC , 
   daynightModeC ,
@@ -100,7 +101,10 @@ dispatch(handleOpenEngin(false))
 
  
   return (
-    <div  className=' w-full h-[auto] '>
+    <div id='cutomscoll'  className=' w-full h-[100vh] overflow-y-scroll '>
+     <div className="w-full h-[8vh]">
+      <Header />
+      </div>
     <div className='relative max-w-[1000px]   h-[400px] m-auto  rounded-[7px]'>     
     <div className={` w-[full]   h-[400px] ${userdata?.backgrounpicture ? '' : 'bg-[black] '}   overflow-hidden  rounded-[7px]`} >
         { 

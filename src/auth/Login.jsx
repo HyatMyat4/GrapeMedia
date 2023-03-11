@@ -29,6 +29,8 @@ const Login = ({getFeedPost , handlefriends}) => {
         const loggedIn = await login.json();
         if(loggedIn){
           setmsg(loggedIn.message)
+        }else{
+          setmsg("Soorty Login Failed")
         }
    
         localStorage.setItem("Token",loggedIn.token) 

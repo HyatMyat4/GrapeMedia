@@ -102,7 +102,7 @@ const EditCoverPhoto = () => {
  
  
   return (
-    <div className={` absolute w-full h-[92%] bg-[#000000e7] z-10 overflow-hidden   `}>
+    <div className={` absolute w-full h-[100%] bg-[#000000e7] z-10 overflow-hidden   `}>
       <div className={` absolute inset-0 top-5 w-[300px] h-aut0 m-auto animate-slidedown2 ${MessageErr ? '' : 'hidden'}`}>
           <span className="o px-[30px] py-[10px] bg-orange-500 rounded animate-pulse  ">{MessageErr}</span>
       </div>
