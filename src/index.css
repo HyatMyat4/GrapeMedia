@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Roboto:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Share Tech Mono', monospace;
+  background-color: #23242a;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#fontbt{
+	font-family: 'Square Peg', cursive;
+}
+#fontbt2{
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+:root {
+
+}
+#Header-left{
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#fi{
+  display: block;
+  }
+#Ex:hover #fi{
+display: inline;
+}
+
+#Wecom{
+  font-family: 'Poppins', sans-serif;
+}
+#box::before 
+{
+	content: '';
+	z-index: 1;
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 450px;
+	height: 500px;
+	transform-origin: bottom right;
+	background: linear-gradient(0deg,transparent,#A855F7,#45f3ff);
+	animation: animate 6s linear infinite;
+}
+#box::after{
+	content: '';
+	z-index: 1;
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 450px;
+	height: 500px;
+	transform-origin: bottom right;
+	background: linear-gradient(0deg,transparent,#45f3ff,#45f3ff);
+	animation: animate 6s linear infinite;
+  animation-delay: -3s;
+}
+#ROboto{
+	font-family: 'Inconsolata', monospace;
+	font-family: 'Roboto', sans-serif;
+}
+@keyframes animate 
+{
+	0%
+	{
+		transform: rotate(0deg);
+	}
+	100%
+	{
+		transform: rotate(360deg);
+	}
+}
+
+form 
+{
+	position: absolute;
+	inset: 2px;
+	background: #28292d;
+	padding: 50px 40px;
+	border-radius: 8px;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+}
+@media(max-width: 300px ){
+  form {
+	position: absolute;
+	inset: 2px;
+	background: #28292d;
+	padding: 30px 20px;
+	border-radius: 8px;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+}
+}
+@media(max-width: 230px ){
+  form {
+	position: absolute;
+	inset: 2px;
+	background: #28292d;
+	padding: 10px 10px;
+	border-radius: 8px;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+}
+}
+
+
+
+#box2::before 
+{
+	content: '';
+	z-index: 1;
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 450px;
+	height: 500px;
+	transform-origin: bottom right;
+	background: linear-gradient(0deg,transparent,#A855F7,#45f3ff);
+	animation: animate 6s linear infinite;
+}
+#box2::after{
+	content: '';
+	z-index: 1;
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 450px;
+	height: 500px;
+	transform-origin: bottom right;
+	background: linear-gradient(0deg,transparent,#6aff45,#ff45d4);
+	animation: animate 6s linear infinite;
+  animation-delay: -3s;
+}
+
+@keyframes animate 
+{
+	0%
+	{
+		transform: rotate(0deg);
+	}
+	100%
+	{
+		transform: rotate(360deg);
+	}
+}
+
+#instgram{
+	background: linear-gradient(81.84deg, #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#bgliner{
+	background: linear-gradient(81.84deg, #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+   
+} 
+
+#instgram:hover{
+	background: linear-gradient(81.84deg, #35aeff -9.4%, #aa49ff 51.57%, #ff658e 84.07%, #ff8274 90.59%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#root::-webkit-scrollbar {
+	display: none;
+  }
+#root {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+  }
+
+  #cutomscoll::-webkit-scrollbar {
+    
+	width: 10px;    
+  }
+  #cutomscoll::-webkit-scrollbar-track {          
+	background: #18191A;
+   }
+   #cutomscoll::-webkit-scrollbar-track:hover { 
+		 
+	background: rgba(128, 128, 128, 0.253);
+   }
+   #cutomscoll::-webkit-scrollbar-thumb {
+	 background: rgba(220, 220, 220, 0.345);      
+	 border-radius: 8px;
+	
+	}  
+
+
+	#input::-webkit-scrollbar {
+		display: none;
+	  }
+	#input {
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+		
+	  }
+
+	  #Like:hover #ltext{
+		opacity: 1;
+	   }
+	   #Likethumbs:hover #reaction {
+		 
+		 display: inline;
+	   }
+
